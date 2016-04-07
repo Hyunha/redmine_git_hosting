@@ -1,0 +1,51 @@
+ko:
+
+  ########### SSH KEYS ###########
+
+  # User SSH keys (notices)
+  notice_public_key_created: 공개 key <strong>%{title}</strong> 생성.
+  notice_public_key_updated: 공개 key <strong>%{title}</strong> 갱신.
+  notice_public_key_deleted: 공개 key <strong>%{title}</strong> 삭제.
+
+  # User SSH keys (fields)
+  field_key: this key
+
+  # User SSH keys (labels)
+  label_my_public_keys: 내 공개 key들
+  label_public_keys: 공개 key들
+  label_public_key: 공개 key
+  label_public_key_edit: 존재하는 공개 key 편집
+  label_current_public_keys: 현재 공개 key들
+  label_current_user_keys: 현재 유저 key들
+  label_current_deploy_keys: 현재 deployment key들
+  label_no_public_keys: 정의된 공개 key가 없음
+  label_public_key_new: 새 공개 key 입력
+  label_identifier_can_be_arbitrary: 식별자
+  label_identifier_can_be_arbitrary_desc: (아무 문자열이나 사용 가능)
+  label_key_type: 공개 key 타입
+  label_user_key: 유저 key
+  label_deploy_key: Deploy key
+  label_cut_and_paste: .pub 파일 전체를 복사해 붙여넣으세요.
+  label_identifier_cannot_be_changed: 식별자<br/><em>(변경불가)</em>
+  label_key_cannot_be_changed_please_create_new_key: '이 key는 더이상 대체가 불가능하지만 삭제 후 새로 생성은 가능합니다.'
+
+  # User SSH keys (confirmation)
+  text_gitolite_key_destroy_confirmation: "이 key를 삭제합니까? : %{title}"
+
+  # User SSH keys (errors)
+  error_public_key_create_failed: 공개 key 생성 실패.
+  error_public_key_update_failed: 공개 key 갱신 실패.
+
+
+  activerecord:
+    errors:
+      models:
+
+        gitolite_public_key:
+          attributes:
+            key:
+              corrupted: 오류가 있는 것 같습니다.
+              taken_by_you: '이미 사용중 : "%{name}".'
+              taken_by_other: '이미 사용중 : "%{name}" (유저 : "%{login}").'
+              taken_by_someone: 이미 누군가가 사용중입니다(관리자에게 문의).
+              taken_by_gitolite_admin: Gitolite 관리자 key로 사용중.

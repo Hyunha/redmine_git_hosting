@@ -1,0 +1,194 @@
+ko:
+
+  # Global
+  label_need_help: 도움말
+  label_open_issue: 일감 열기
+  label_redmine_git_hosting_wiki: Redmine Git 호스팅 - Wiki
+  label_redmine_git_hosting_issue: Redmine Git 호스팅 - 일감 열기
+
+  # Gitolite SSH Config
+  label_tab_ssh: SSH
+  label_gitolite_ssh_config: Gitolite SSH 설정
+
+  label_gitolite_user: Gitolite 사용자이름
+  label_gitolite_ssh_private_key: Gitolite SSH private key
+  label_gitolite_ssh_public_key: Gitolite SSH public key
+  label_gitolite_server_host: SSH/Gitolite 서버 호스트
+  label_gitolite_server_port: SSH/Gitolite 서버 포트
+
+  # Gitolite Storage Config
+  label_tab_storage: 저장공간
+  label_gitolite_storage_config: Gitolite 저장공간 설정
+
+  label_gitolite_global_storage_dir: Gitolite 저장공간 base 경로
+  label_gitolite_global_storage_dir_desc: Gitolite 저장공간에서 사용자 home 디렉토리 상대경로
+  label_gitolite_recycle_bin_dir: Gitolite 휴지통 base 경로
+  label_gitolite_recycle_bin_dir_desc: Gitolite 사용자 home에서 휴지통 상대경로
+  label_gitolite_redmine_storage_dir: Redmine 관리 저장소의 하위 디렉토리
+  label_gitolite_redmine_storage_dir_desc: base 경로에서 Redmine 관리 저장소의 상대경로
+  label_gitolite_local_code_dir: Gitolite non-core hooks 디렉토리
+  label_gitolite_local_code_dir_desc: Relative to Gitolite 사용자 home 디렉토리의 상대경로
+  label_gitolite_lib_dir: Gitolite 라이브러리 디렉토리
+  label_gitolite_lib_dir_desc: Debian은 /usr/share/gitolite3/lib, 수동 설치시 bin/lib/
+
+  # Gitolite Config File
+  label_tab_config_file: 설정 파일
+  label_gitolite_config_file: Gitolite 설정파일
+  label_gitolite_identifier_prefix: Gitolite 접두어
+  label_gitolite_identifier_prefix_desc: SSH keys 식별자를 위해 사용함
+  label_gitolite_identifier_strip_user_id: Gitolite에서 사용자 ID 삭제
+
+  # Gitolite Global Config
+  label_tab_global: 전역설정
+  label_gitolite_global_config: Gitolite 전역설정
+
+  label_gitolite_temp_dir: 파일 및 자료 잠금을 위한 임시 디렉토리
+  label_gitolite_temp_dir_desc: 절대경로로 입력해야 함
+
+  label_gitolite_recycle_bin_expiration_time: 저장소 내 휴지통의 만기기간
+  label_gitolite_recycle_bin_expiration_time_desc: (시간)
+
+  label_gitolite_log_level: Gitolite 로깅 레벨
+  label_gitolite_log_level_desc: Redmine 재시작 후 적용
+  label_debug: Debug
+  label_info: Info
+  label_warn: Warning
+  label_error: Error
+
+  label_git_config_username: Git 저자 이름
+  label_git_config_username_desc: 커밋 시 저자 이름으로 사용
+  label_git_config_email: Git 저자 email
+  label_git_config_email_desc: 커밋 시 저자 email로 사용
+
+  # Gitolite Access Config
+  label_tab_access: 접근
+  label_gitolite_access_config: Gitolite 접근 설정
+
+  label_ssh_server_domain: SSH 서버 도메인
+  label_http_server_domain: HTTP 서버 도메인
+  label_https_server_domain: HTTPS 서버 도메인
+  label_https_server_domain_desc: 사용하지 않을 경우 공백으로 둘 것
+  label_default_domain_name: 도메인 이름 기본 값
+  label_http_server_subdir: HTTP 접근을 위한 하위 디렉토리
+  label_http_server_subdir_desc: Redmine root URL에서 상대경로로 입력
+  label_show_repositories_url: Show checkout URL's?
+
+  label_gitolite_daemon_by_default: 새로 만드는 저장소의 Git Daemon 모드를 활성화?
+  label_gitolite_http_by_default: 새로 만드는 저장소의 Smart HTTP mode를 활성화?
+
+  label_http_only: HTTP 만
+  label_https_only: HTTPS 만
+  label_https_and_http: HTTPS/HTTP 모두
+
+  label_gitolite_download_revision_enabled: Git 리비전 내려받기 활성화
+
+  # Gitolite Hooks Config
+  label_tab_hooks: Hooks
+  label_gitolite_hooks_config: Gitolite Hooks 설정
+
+  label_gitolite_overwrite_existing_hooks: 존재하는 hooks 덮어쓰기
+  label_gitolite_hooks_are_asynchronous: 비동기식 hooks 동작
+  label_gitolite_hooks_debug: 디버그 모드로 hooks 동작
+  label_gitolite_hooks_url: Hooks URL
+  label_gitolite_hooks_namespace: Hooks Git 이름공간
+  label_default_gitolite_hooks_url: 기본 URL
+  label_install_gitolite_hooks: hooks 설치!
+  label_gitolite_hook_untouched: hook 건드리지 않기
+
+  # Gitolite Cache Config
+  label_tab_cache: 캐시
+  label_gitolite_cache_config: Gitolite 캐시 설정
+
+  label_gitolite_cache_max_time: 최대 캐시 시간
+  label_gitolite_cache_max_size: 최대 캐시 크기
+  label_gitolite_cache_max_elements: 최대 캐시 수
+  label_gitolite_cache_adapter: 캐시 Adapter
+  label_gitolite_cache_adapter_desc: Redmine 재시작 후 적용
+
+  # Gitolite Notifications
+  label_tab_notify: 알림
+  label_gitolite_notify_config: Git Mailing List 설정
+
+  label_gitolite_notify_by_default: "새 저장소 생성시 'Git 알림' hook을 기본으로 활성화?"
+  label_gitolite_notify_global_prefix: Git mailing list 전역 접두어
+  label_gitolite_notify_global_sender_address: Git mailing list 전역 송신 주소
+  label_gitolite_notify_global_include: Git mailing list 전역 포함 목록
+  label_gitolite_notify_global_exclude: Git mailing list 전역 배제 목록
+
+  # Redmine Config
+  label_tab_redmine: Redmine
+  label_redmine_config: Redmine 설정
+
+  label_redmine_has_rw_access_on_all_repos: Redmine 이 모든 Gitolite 저장소에 RW 권한 소유
+  label_all_projects_use_git: 새 프로젝트에 자동으로 Git 저장소를 생성
+  label_delete_git_repositories: 프로젝트 삭제시 Git 저장소도 삭제<br/>(휴지통으로 이동)
+  label_init_repositories_on_create: Git 저장소를 README 파일과 같이 초기화
+  label_hierarchical_organisation: 저장소를 Redmine에서 관리하는 디렉토리 구조로 구성
+  label_unique_repo_identifier: 저장소 식별자를 겹치지 않게 생성
+
+  label_ssh_keys_current_access_patterns: SSH keys 접근 패턴
+  label_repos_current_access_patterns: 현재 저장소 접근 패턴
+  label_storage_directory: 저장공간 디렉토리
+  label_ssh_access: SSH 접근
+  label_http_access: HTTP 접근
+  label_https_access: HTTPS 접근
+
+  display_access_setup1: "가정1 : <em>project1</em>이 <em>project2</em>의 상위이고 <em>project2</em>가 <em>project3</em>의 상위임."
+  display_access_setup2: "가정2 : <em>project3</em>이 두 저장소 <em>default</em>, <em>example</em>를 포함함."
+  display_access_setup3: "현 설정에서 <em>project3</em>의 특성은 다음과 같음 :"
+  display_access_emphasis: "In the above patterns, <em>emphasized</em> components represent context-dependent elements."
+  display_access_hierarchical: "Parent projects are included in the URLs, since the repository is in <em>Hierarchical</em> mode."
+  display_access_flat: "Parent projects are not included in the URLs, since the repository is in <em>Flat</em> mode."
+
+  label_flat: Flat
+  label_hierarchical: Hierarchical
+  label_default_repository: Default 저장소
+  label_example_repository: Example 저장소
+
+  # Sidekiq Config
+  label_tab_sidekiq_interface: 사이드킥
+  label_gitolite_use_sidekiq: 비동기 동작을 위해 사이드킥 활성화
+
+  # Config Check
+  label_tab_config_test: 설정 확인
+  label_permissions_header: 필요 권한
+  label_sudo_redmine_to_gitolite_user: Redmine 유저가 Git 유저의 sudo입니까?
+  label_sudo_gitolite_to_redmine_user: Git 유저가 Redmine 유저의 sudo입니까?
+  label_unknown_gitolite_version: 알수없는 버전
+  label_temp_dir_writeable: 임시 디렉토리에 쓰기가 가능합니까?
+  label_mirroring_keys_installed: Mirrors keys가 설치되었습니까?
+  label_gitolite_version: Gitolite 버전
+  label_gitolite_banner: Gitolite 배너
+  label_path_directories: PATH 디렉토리
+  label_gitolite_hooks_params_installed: Hooks parameters가 설치되었습니까?
+  label_gitolite_mailer_params_installed: Mailer parameters가 설치되었습니까?
+  label_gitolite_hooks_installed: Hooks이 설치되었습니까?
+  label_gitolite_hook_dirs_installed: Hook 디렉토리가 설치되었습니까?
+  label_redmine_user: Redmine 유저 이름
+  label_git_version: Git 버전
+  label_gitolite_repository_count: Gitolite의 물리적 저장소 수
+  label_gitolite_rugged_features: Rugged compiled features
+  label_gitolite_libgit2_version: libgit2 버전
+
+  # Recycle Bin
+  label_tab_gitolite_recycle_bin: 휴지통
+  label_empty_recycle_bin: 빈 휴지통
+  label_recycle_bin_content: 휴지통 내용
+  label_recycle_bin_content_size: 크기
+  label_delete_from_recyle_bin: 휴지통에서 제거
+  label_delete_warning: 주의! 영구 삭제됩니다!
+
+  # Gitolite Rescue
+  label_tab_gitolite_rescue: 복원
+  label_gitolite_rescue: Gitolite 복원
+
+  label_resync_all_projects: 모든 프로젝트를 Resync?
+  label_resync_all_ssh_keys: 모든 SSH key를 Resync?
+  label_regenerate_all_ssh_keys: 모든 SSH key를 재생성?
+  label_regenerate_all_ssh_keys_desc: "SSH key 식별자를 재성성합니다."
+  label_regenerate_all_ssh_keys_desc2: "Gitolite의 SSH key를 하나씩 삭제후 추가하므로 오래 걸릴 수 있습니다."
+  label_flush_cache: Git 캐시 비우기
+
+  # Misc
+  label_select_all: 모두 선택
+  label_etcetera: 기타

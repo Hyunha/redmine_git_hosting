@@ -1,0 +1,30 @@
+ko:
+
+  ## Permissions
+  permission_create_repository_mirrors: 저장소 mirrors 생성
+  permission_view_repository_mirrors: 저장소 mirrors 보기
+  permission_edit_repository_mirrors: 저장소 mirrors 편집
+  permission_push_repository_mirrors: 저장소 mirrors에 변경사항 Push
+
+  permission_create_repository_post_receive_urls: post-receive URLs 생성
+  permission_view_repository_post_receive_urls: post-receive URLs 보기
+  permission_edit_repository_post_receive_urls: post-receive URLs 편집
+
+  permission_create_repository_deployment_credentials: deployment keys 생성
+  permission_view_repository_deployment_credentials: deployment keys 보기
+  permission_edit_repository_deployment_credentials: deployment keys 편집
+
+  permission_create_repository_git_config_keys: Git config keys 생성
+  permission_view_repository_git_config_keys: Git config keys 보기
+  permission_edit_repository_git_config_keys: Git config keys 편집
+
+  permission_create_repository_protected_branches: 보호중인 branches 생성
+  permission_view_repository_protected_branches: 보호중인 branches 보기
+  permission_edit_repository_protected_branches: 보호중인 branches 편집
+
+  permission_view_repository_xitolite_watchers: watchers 보기
+  permission_add_repository_xitolite_watchers: watchers 추가
+  permission_delete_repository_xitolite_watchers: watchers 삭제
+
+  permission_create_gitolite_ssh_key: SSH keys 생성
+  permission_download_git_revision: Git 리비전 모음 내려받기

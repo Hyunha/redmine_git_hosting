@@ -1,0 +1,12 @@
+ko:
+  label_move_repository: "저장소 옮기기 : '%{repo_name}'"
+
+  activemodel:
+    errors:
+      models:
+        move_repository_form:
+          attributes:
+            base:
+              identifier_empty: 빈 식별자로 이동 불가
+              identifier_taken: 사용중인 저장소 식별자
+              wrong_target_project: 동일한 프로젝트 식별자

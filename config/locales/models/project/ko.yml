@@ -1,0 +1,11 @@
+ko:
+
+  activerecord:
+    errors:
+      models:
+
+        project:
+          attributes:
+            identifier:
+              invalid: 유효하지 않은 식별자
+              taken: 존재하는 저장소 식별자와 매칭

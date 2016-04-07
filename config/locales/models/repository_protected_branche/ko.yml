@@ -1,0 +1,21 @@
+ko:
+
+  ########### PROTECTED BRANCHES ###########
+  # Basics labels
+  label_protected_branches: 보호중인 branches
+  label_protected_branch_add: 보호 branch 추가
+  label_protected_branch_create: 보호 branch 생성
+  label_protected_branch_edit: 보호 branch 편집
+  label_protected_branch_delete: 보호 branch 삭제
+
+  # Basics notices
+  notice_protected_branch_created: 보호 branch 생성.
+  notice_protected_branch_updated: 보호 branch 갱신.
+  notice_protected_branch_deleted: 보호 branch 삭제.
+  notice_protected_branch_create_failed: 보호 branch 생성 실패
+  notice_protected_branch_update_failed: 보호 branch 갱신 실패
+
+  label_branch_path: Branch 경로
+  label_user_list: 허용된 유저
+
+  protected_branches_reminder: 위 보호 branch는 비활성화 중입니다. 저장소 설정에서 활성화 해 주세요.

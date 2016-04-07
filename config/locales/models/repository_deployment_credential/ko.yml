@@ -1,0 +1,45 @@
+ko:
+
+  ########### DEPLOYMENT CREDENTIALS ###########
+  # Basics labels
+  label_deployment_credentials: Deployment Credentials
+  label_deployment_credential_add: Deployment Credential 추가
+  label_deployment_credential_create: 새 Deployment Credential 생성
+  label_deployment_credential_edit: Deployment Credential 편집
+  label_deployment_credential_delete: Deployment Credential 삭제
+
+  # Basics notices
+  notice_deployment_credential_created: Deployment Credential 생성.
+  notice_deployment_credential_updated: Deployment Credential 갱신.
+  notice_deployment_credential_deleted: Deployment Credential 삭제.
+  notice_deployment_credential_deleted_with_key: Deployment Credential와 Key 모두 삭제.
+  notice_deployment_credential_create_failed: deployment credential 생성 실패
+  notice_deployment_credential_update_failed: deployment credential 삭제 실패
+
+  # Basics fields
+  field_perm: 접근 권한
+
+  # Misc
+  label_deployment_credential_create_key_first: Deployment key가 없습니다. 새로 생성하세요.
+  label_deployment_credential_permissions: 접근 권한
+  label_deployment_credential_delete_when_unused: 비사용중인 key 삭제?
+  label_deployment_credential_select_deploy_key: Deployment Key 선택
+
+  label_deployment_credential_owner: 소유자
+  label_deployment_credential_public_key_name: 공개 key 이름
+  label_deployment_credential_public_key_file: 공개 key 파일
+  label_deployment_credential_permissions: 권한
+  label_deployment_credential_honored: Honored?
+  label_deployment_credential_active: Active?
+
+  select_other_keys: Other keys
+
+  activerecord:
+    errors:
+      models:
+
+        repository_deployment_credential:
+          attributes:
+            base:
+              invalid_key: 공개 Key는 Deployment Key여야 함
+              invalid_user: Credential 소유자는 Key의 소유자와 일치해야 함

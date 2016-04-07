@@ -1,0 +1,24 @@
+ko:
+
+  redmine_git_hosting: 레드마인 Git 호스팅
+
+  ########### MISCELANOUS ###########
+  label_enabled: 활성화
+  label_disabled: 비활성화
+  label_true: 참
+  label_false: 거짓
+  label_backup_in_progress: 저장중...
+  label_delete_in_progress: 삭제중...
+  label_url: URL
+  label_mode: 모드
+  label_hour: 시간
+  button_ok: OK
+  button_clone: 복제
+
+  label_monday: 월요일
+  label_tuesday: 화요일
+  label_wednesday: 수요일
+  label_thursday: 목요일
+  label_friday: 금요일
+  label_saturday: 토요일
+  label_sunday: 일요일
